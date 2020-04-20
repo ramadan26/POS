@@ -1,5 +1,7 @@
 // Call the dataTables jQuery plugin
 $(document).ready(function() {
+
+  
   function add_classes(){
     $('.lstTbl').addClass(['table', 'table-bordered', 'table-hover', 'dataTable', 'nowrap', 'dt-responsive ']);
     $('.lstTbl').attr('dir', 'rtl');

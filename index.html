@@ -16,7 +16,7 @@
   <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
   <link rel="shortcut icon" href="img/ico2.png" />
   <!-- Custom styles for this template-->
-  <link href="css/sb-admin-2.css" rel="stylesheet">
+  <link href="css/pos-admin.css" rel="stylesheet">
 
 </head>
 
@@ -31,7 +31,8 @@
       <!-- Sidebar - Brand -->
       <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
         <div class="sidebar-brand-icon">
-          <img class="w-100" src="img/mts.png" alt="MTS Logo">
+          <img class="w-100 sidebar-open" src="img/mts.png" alt="MTS Logo">
+          <img class="  sidebar-closed m-auto" style="display:none;" src="img/MTS2.png" alt="MTS Logo">
         </div>
         <!-- <img class="" src="/img/mts-1.png" alt="MTS Logo"> -->
         <!-- <div class="sidebar-brand-text mx-3" dir="rtl" style="width: 100%;">
@@ -71,7 +72,7 @@
       </li>
       <li class="nav-item">
         <a class="nav-link text-center" dir="rtl" href="shipping_cards.html">
-          
+
           <i class="fas fa-fw fa-money-bill"></i>
           <span>بطاقات الشحن</span></a>
       </li>
@@ -119,7 +120,7 @@
 
       <!-- Sidebar Toggler (Sidebar) -->
       <div class="text-center d-none d-md-inline">
-        <button class="rounded-circle border-0" id="sidebarToggle"></button>
+        <button class="rounded-circle border-0 toggle-class" id="sidebarToggle"></button>
       </div>
 
     </ul>
@@ -289,7 +290,7 @@
               </a>
               <!-- Dropdown - User Information -->
               <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in" aria-labelledby="userDropdown" dir="rtl">
-                
+
                 <a class="dropdown-item" href="login.html">
                   <i class="fas fa-sign-out-alt fa-sm fa-fw  text-gray-400"></i>
                   تسجيل الخروج
@@ -370,7 +371,7 @@
                   </div>
                 </div>
               </div>
-            </!--> 
+            </!-->
 
             <!-- Pending Requests Card Example -->
             <!-- <div class="col-xl-3 col-md-6 mb-4">
@@ -444,7 +445,7 @@
             </div>
 
             <!-- Pie Chart -->
-            
+
 
 
             <div class="col-xl-6 col-lg-6">
@@ -491,7 +492,7 @@
               </div>
             </div>
 
-            
+
           </div>
 
           <!-- Content Row -->
@@ -631,7 +632,7 @@
 
             </div>
 
-            
+
           </div>
 
         </div>
@@ -688,14 +689,14 @@
   <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
 
   <!-- Custom scripts for all pages-->
-  <script src="js/sb-admin-2.min.js"></script>
-
+  <script src="js/sb-admin-2.js"></script>
+  <script src="js/plugin.js"></script>
   <!-- Page level plugins -->
   <!-- <script src="vendor/chart.js/Chart.min.js"></script> -->
 
   <!-- Page level custom scripts -->
-  <script src="js/demo/chart-area-demo.js"></script>
-  <script src="js/demo/chart-pie-demo.js"></script>
+  <!-- <script src="js/demo/chart-area-demo.js"></script>
+  <script src="js/demo/chart-pie-demo.js"></script> -->
 
 </body>
 

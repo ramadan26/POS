@@ -36,7 +36,8 @@
       <!-- Sidebar - Brand -->
       <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
         <div class="sidebar-brand-icon">
-          <img class="w-100" src="img/mts.png" alt="MTS Logo">
+          <img class="w-100 sidebar-open" src="img/mts.png" alt="MTS Logo">
+          <img class="  sidebar-closed m-auto" style="display:none;" src="img/MTS2.png" alt="MTS Logo">
         </div>
         <!-- <img class="" src="/img/mts-1.png" alt="MTS Logo"> -->
         <!-- <div class="sidebar-brand-text mx-3" dir="rtl" style="width: 100%;">
@@ -124,7 +125,7 @@
 
       <!-- Sidebar Toggler (Sidebar) -->
       <div class="text-center d-none d-md-inline">
-        <button class="rounded-circle border-0" id="sidebarToggle"></button>
+        <button class="rounded-circle border-0 toggle-class" id="sidebarToggle"></button>
       </div>
 
     </ul>
@@ -933,7 +934,8 @@
   <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
 
   <!-- Custom scripts for all pages-->
-  <script src="js/sb-admin-2.min.js"></script>
+  <script src="js/sb-admin-2.js"></script>
+  <script src="js/plugin.js"></script>
 
   <!-- Page level plugins -->
   <script src="js/jquery.dataTables.min.js"></script>
